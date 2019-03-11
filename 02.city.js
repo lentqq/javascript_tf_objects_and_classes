@@ -2,10 +2,9 @@ function city(name, area, population, country, postCode) {
     let city = {
         name, area, population, country, postCode
     }
-
     
-    for (const pair in city) {
-      console.log(`${pair} -> ${city[pair]}`);
+    for (const pair in city) {        
+        console.log(`${pair} -> ${city[pair]}`);
     }
 }
 
