@@ -2,7 +2,7 @@ function convertToObject(jsonString) {
     let convert = JSON.parse(jsonString);
     let entries = Object.entries(convert);
 
-    for (let [key,value] of entries) {
+    for (let [key, value] of entries) {
         console.log(`${key}: ${value}`);
     }
 }
