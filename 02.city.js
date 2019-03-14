@@ -8,4 +8,4 @@ function city(name, area, population, country, postCode) {
     }
 }
 
-city('Carevo', 25, 6000, 'Bulgaria', 8620)
+city('Michuryn', 25, 6000, 'Bulgaria', 8620)
