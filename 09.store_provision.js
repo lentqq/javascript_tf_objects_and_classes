@@ -20,8 +20,8 @@ function storeProvision(array) {
         }
     }
     console.log(result);
-    let reversedResult  = JSON.stringify(result)
-    console.log(reversedResult);
+    let parsToJasonResult  = JSON.stringify(result)
+    console.log(parsToJasonResult);
 }
 
 storeProvision([['Chips', '5', 'CocaCola', '9',
